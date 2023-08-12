@@ -8,27 +8,29 @@
 // B = "abcbacabc"
 // output - 5
 public static class CountRightTriangle {
-    public static int SolveCountRightTriangle(string A, string B) {
-        int[] freqA = new int[26];
-        int[] freqB = new int[26];
-        int ans = 0;
-        for(int i=0;i<A.Length;i++)
-        {
-            freqA[A[i] - 'a']++;
-        }
+     public static int solveRightTriangle(List < int > A, List < int > B) {
+        int n = A.Count;
+        // stores the frequency of each x coordinate
+        Dictionary < int, int > mpx = new Dictionary < int, int > ();
+        // stores the frequency of each y coordinate
+        Dictionary < int, int > mpy = new Dictionary < int, int > ();
+        for (int i = 0; i < n; i++) {
+            if (!mpx.ContainsKey(A[i])) {
+                mpx.Add(A[i], 1);
+            } else
+                mpx[A[i]]++;
 
-        for(int i=0;i<B.Length;i++){
-         freqB[B[i]-'a']++;
-         //when i will be at index >=A.length, then remove leftmost char freq from freqB as we are sliding window by one char
-         if(i>=A.Length){
-             freqB[B[i-A.Length]-'a']--;
-         }
-         if(Compare(freqA, freqB)){
-             ans++;
-         }
+            if (!mpy.ContainsKey(B[i])) {
+                mpy.Add(B[i], 1);
+            } else
+                mpy[B[i]]++;
         }
-
-        return ans;
+        long ans = 0, mod = 1000 * 1000 * 1000 + 7;
+        for (int i = 0; i < n; i++) {
+            // counts the no of triangles that forms a right angle at the i-th point
+            ans = (ans + (mpx[A[i]] - 1) * (mpy[B[i]] - 1)) % mod;
+        }
+        return (int) ans;
     }
 
     private static bool Compare(int[] freqA, int[] freqB){
