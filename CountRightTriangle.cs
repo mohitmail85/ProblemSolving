@@ -1,12 +1,7 @@
 // Problem Description
-// You are given two strings, A and B, of size N and M, respectively.
+// Given two arrays of integers A and B of size N each, where each pair (A[i], B[i]) for 0 <= i < N represents a unique point (x, y) in 2D Cartesian plane.
 
-// You have to find the count of all permutations of A present in B as a substring. You can assume a string will have only lowercase letters.
-// ex: 
-// Input
-// A = "abc"
-// B = "abcbacabc"
-// output - 5
+// Find and return the number of unordered triplets (i, j, k) such that (A[i], B[i]), (A[j], B[j]) and (A[k], B[k]) form a right-angled triangle with the triangle having one side parallel to the x-axis and one side parallel to the y-axis.
 public static class CountRightTriangle {
      public static int solveRightTriangle(List < int > A, List < int > B) {
         int n = A.Count;
