@@ -1,0 +1,17 @@
+D:\learnings\dotnet\bin\Debug\net6.0\dotnet.exe
+D:\learnings\dotnet\bin\Debug\net6.0\dotnet.deps.json
+D:\learnings\dotnet\bin\Debug\net6.0\dotnet.runtimeconfig.json
+D:\learnings\dotnet\bin\Debug\net6.0\dotnet.dll
+D:\learnings\dotnet\bin\Debug\net6.0\dotnet.pdb
+D:\learnings\dotnet\obj\Debug\net6.0\dotnet.csproj.AssemblyReference.cache
+D:\learnings\dotnet\obj\Debug\net6.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\learnings\dotnet\obj\Debug\net6.0\dotnet.AssemblyInfoInputs.cache
+D:\learnings\dotnet\obj\Debug\net6.0\dotnet.AssemblyInfo.cs
+D:\learnings\dotnet\obj\Debug\net6.0\dotnet.csproj.CoreCompileInputs.cache
+D:\learnings\dotnet\obj\Debug\net6.0\dotnet.dll
+D:\learnings\dotnet\obj\Debug\net6.0\refint\dotnet.dll
+D:\learnings\dotnet\obj\Debug\net6.0\dotnet.pdb
+D:\learnings\dotnet\obj\Debug\net6.0\dotnet.genruntimeconfig.cache
+D:\learnings\dotnet\obj\Debug\net6.0\ref\dotnet.dll
+D:\learnings\dotnet\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\learnings\dotnet\obj\Debug\net6.0\dotnet.csproj.CopyComplete
