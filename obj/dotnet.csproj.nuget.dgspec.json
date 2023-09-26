@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\learnings\\dotnet\\dotnet.csproj": {}
+    "D:\\learnings\\dotnet\\dotnet.csproj": {}
   },
   "projects": {
-    "d:\\learnings\\dotnet\\dotnet.csproj": {
+    "D:\\learnings\\dotnet\\dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\learnings\\dotnet\\dotnet.csproj",
+        "projectUniqueName": "D:\\learnings\\dotnet\\dotnet.csproj",
         "projectName": "dotnet",
-        "projectPath": "d:\\learnings\\dotnet\\dotnet.csproj",
+        "projectPath": "D:\\learnings\\dotnet\\dotnet.csproj",
         "packagesPath": "D:\\Users\\mohitg\\.nuget\\packages\\",
-        "outputPath": "d:\\learnings\\dotnet\\obj\\",
+        "outputPath": "D:\\learnings\\dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\mohitg\\AppData\\Roaming\\NuGet\\NuGet.Config"
