@@ -19,9 +19,17 @@ public class Program
         // string input2 = "abcabc";
         // Console.WriteLine("Input 1: " + solution.solve(input1)); // Output 1: "aabbdd"
         // Console.WriteLine("Input 2: " + solution.solve(input2)); // Output 2: "aaabc#"
-        List<int> A = new List<int> { 1, 2, 3 };
-        BacktrackingSubset obj = new BacktrackingSubset();
-        var temp = obj.SolveSubset(A);
+        // List<int> A = new List<int> { 1, 2, 3 };
+        // BacktrackingSubset obj = new BacktrackingSubset();
+        List<List<int>> B = new List<List<int>>{ new List<int>{1,2},
+        new List<int>{2,3},
+        new List<int>{3,4},
+        new List<int>{4,5},
+        };
+        PathDirectedGraph obj = new PathDirectedGraph();
+        var res = obj.GetPath(5, B);
+
+
     }
 
 }
